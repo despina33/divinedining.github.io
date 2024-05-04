@@ -1,59 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Caveat:wght@400;500;600;700&family=Comforter&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&family=Ultra&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https://kit.fontawesome.com/203fa70986.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="index.css" />
-    <title>Divine Dining</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Caveat:wght@400;500;600;700&family=Comforter&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&family=Ultra&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script src="https://kit.fontawesome.com/203fa70986.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Divine Dining</title>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <ul class="nav-items">
+      <li class="nav-item">DIVINE</li>
+      <li class="nav-item"><a href="#">ABOUT US</a></li>
+      <li class="nav-item"><a href="#">MENU</a></li>
+      <li class="nav-item"><a href="#">REVIEWS</a></li>
+      <li class="nav-item"><a href="#">CONTACT</a></li>
+    </ul>
+  </nav>
 
-  <body>
-    <nav class="nav">
-      <ul class="nav-items">
-        <li class="nav-item">DIVINE</li>
-        <li class="nav-item"><a href="#">ABOUT US</a></li>
-        <li class="nav-item"><a href="#">MENU</a></li>
-        <li class="nav-item"><a href="#">REVIEWS</a></li>
-        <li class="nav-item"><a href="#">CONTACT</a></li>
-      </ul>
-    </nav>
-
-    <div class="big-underline"></div>
-
-    <div class="container">
-      <h1>
-        DIVINE
-        <br />
-        DINING
-      </h1>
-      <p>
+  <!-- Intro Section -->
+  <section class="landing">
+  <div class="big-underline"></div>
+  <div class="container">
+    <h1>DIVINE<br />DINING</h1>
+    <p>
         Welcome to Divine Dining, where exquisite flavors meet impeccable
         service in an ambiance of refined elegance.</p> 
         <p>Indulge your senses in a
         culinary journey that celebrates the artistry of fine dining.
       </p>
-    </div>
-
-<section class="aboutus">
-    <div class="container2">
-    <h2>ABOUT US</h2>
-<p>  Our expert chefs craft each dish with precision, sourcing the freshest and highest quality ingredients to create culinary masterpieces that delight even the most discerning palates. From meticulously plated creations to an extensive wine selection, every detail is thoughtfully curated to provide you with an unforgettable dining experience. Whether you're celebrating a special occasion or seeking an extraordinary gastronomic adventure, immerse yourself in a world of culinary excellence at Divine Dining.</p>
-<p>  Immerse yourself in an ambiance of refined luxury, where every detail is thoughtfully designed to create an unforgettable dining experience. From the moment you step through our doors, prepare to be enchanted by our impeccable service, meticulously curated menu, and an extensive selection of fine wines. Join us and savor the perfect blend of extraordinary cuisine, exceptional service, and an unforgettable atmosphere. Discover a new realm of dining where gastronomy becomes an art form.</p>
-<p>  Step into a world of refined luxury as you are greeted by our attentive and knowledgeable staff. Immerse yourself in an atmosphere of sophistication and elegance, where attention to detail is paramount. Our professional and friendly team is dedicated to providing you with a flawless dining experience, ensuring your every need is met with grace and warmth.</p>
-</div>
 </section>
 
-<section class="menu">
-    <div class="container3">
-        <h2>MENU</h2>
-       <div class="menu-items">
+  <!-- About Us Section -->
+  <section class="aboutus">
+    <div class="container">
+      <h2>ABOUT US</h2>
+      <p>Our expert chefs craft each dish with precision, sourcing the freshest and highest quality ingredients to create culinary masterpieces that delight even the most discerning palates. From meticulously plated creations to an extensive wine selection, every detail is thoughtfully curated to provide you with an unforgettable dining experience.</p>
+      <p>Immerse yourself in an ambiance of refined luxury, where every detail is thoughtfully designed to create an unforgettable dining experience. From the moment you step through our doors, prepare to be enchanted by our impeccable service, meticulously curated menu, and an extensive selection of fine wines. Join us and savor the perfect blend of extraordinary cuisine, exceptional service, and an unforgettable atmosphere. Discover a new realm of dining where gastronomy becomes an art form.</p>
+      <p>Step into a world of refined luxury as you are greeted by our attentive and knowledgeable staff. Immerse yourself in an atmosphere of sophistication and elegance, where attention to detail is paramount. Our professional and friendly team is dedicated to providing you with a flawless dining experience, ensuring your every need is met with grace and warmth.</p>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu">
+    <div class="container">
+      <h2>MENU</h2>
+      <div class="menu-items">
+        <!-- Menu items -->
         <h3 class="categories">APPETIZERS</h3>
         <p>Seared Scallops with Citrus Reduction</p>
         <p>Foie Gras with Fig Compote and Brioche Toast</p>
@@ -67,20 +64,21 @@
         <p>Arugula Salad with Prosciutto, Fig, and Gorgonzola Cheese</p>
         <p>Grilled Peach Salad with Mixed Greens, Burrata, and Toasted Almonds</p>
        </div>
+      </div>
     </div>
-</section>
+  </section>
 
-<section class="menu2">
-    <div class="container4">
+  <section class="menu2">
+    <div class="container">
         <h2>MENU</h2>
-       <div class="menu-items2">
-        <h3 class="categories2">MAIN COURSES</h3>
+       <div class="menu-items">
+        <h3 class="categories">MAIN COURSES</h3>
         <p>Grilled Filet Mignon with Truffle Mash and Red Wine Reduction</p>
         <p>Pan-Seared Halibut with Lemon Beurre Blanc and Herb Risotto</p>
         <p>Roasted Duck Breast with Cherry Port Sauce and Sweet Potato Puree</p>
         <p>Vegetable Wellington with Wild Mushroom Ragout</p>
         <p>Rack of Lamb with Mint Gremolata, Roasted Vegetables, and Rosemary Jus</p>
-        <h3 class="categories2">DESSERTS</h3>
+        <h3 class="categories">DESSERTS</h3>
         <p>Crème Brûlée with Fresh Berries</p>
         <p>Chocolate Molten Lava Cake with Vanilla Bean Ice Cream</p>
         <p>Tiramisu with Espresso Soaked Ladyfingers and Mascarpone Cream</p>
@@ -90,42 +88,41 @@
     </div>
 </section>
 
-<section class="reviews">
+  <!-- Reviews Section -->
+  <section class="reviews">
+    <div class="container">
     <h2>REVIEWS</h2>
-    <div class="customers">
-        <div class="circle">
-            <div class="review1"><i>"The dining experience at this restaurant was simply outstanding. From the moment we stepped in, we were greeted with warm smiles and impeccable service. The atmosphere was elegant and refined, creating the perfect ambiance for a special occasion. The dishes were masterpieces, beautifully presented and bursting with flavors that delighted our taste buds. Each course was a culinary adventure that left us wanting more. This restaurant truly knows how to elevate fine dining to an art form."</i></div>
-            <div class="review11">- Monica Smith</div>
-        </div>
-        <div class="circle">
-            <div class="review2"><i>"I had the pleasure of dining at this restaurant, and it exceeded all my expectations.  The attention to detail was remarkable, from the elegant table settings to the attentive and knowledgeable staff. The menu showcased a perfect blend of creativity and classic flavors. Every dish was a harmonious symphony of tastes and textures, showcasing the chef's passion for culinary excellence. The sommelier's wine pairings were spot-on, enhancing the overall dining experience. This restaurant is a must-visit for anyone seeking a memorable fine dining experience." </i></div>
-            <div class="review22">- Angela Burton</div>
-        </div>
-        <div class="circle">
-            <div class="review3"><i>"I can confidently say that this restaurant is a culinary gem. The moment we walked through the doors, we were enveloped in an atmosphere of sophistication and charm. The staff went above and beyond to ensure that every aspect of our dining experience was exceptional. The menu boasted a fusion of flavors, with each dish expertly crafted and visually stunning. The attention to detail was evident in every bite. From the tantalizing appetizers to the delectable desserts, our taste buds were treated to an unforgettable journey. Dining here was an absolute pleasure and left a lasting impression."</i></div>
-            <div class="review33">- Sam Peterson</div>
-        </div>
-    </div>
-
-</section>
-
-<section class="contact">
-   
-    <div class="container5">
     
-        <h2>CONTACT</h2>
-        <p>We would love to hear from you! Our dedicated team at Divine Restaurant is here to assist you with any inquiries or reservations. Feel free to reach out to us using the contact information provided below. Whether you have questions about our menu, want to book a table for a special occasion, or simply want to share your feedback, we are here to ensure your experience at Divine is exceptional. Get in touch with us today and let us make your dining experience truly unforgettable.</p>
-        <div class="icons">
-            <i class="fa-solid fa-mobile-button"></i> <p>+40727286543</p>
-            <i class="fa-solid fa-envelope"></i> <p>divine@yahoo.com</p>
-            <i class="fa-sharp fa-solid fa-location-dot"></i><p>Soseaua Nordului 7-9</p>
-        </div>
-</div>
+        <div class="circle"></div>
+            <div class="review"><i>"The dining experience at this restaurant was simply outstanding. From the moment we stepped in, we were greeted with warm smiles and impeccable service. The atmosphere was elegant and refined, creating the perfect ambiance for a special occasion. The dishes were masterpieces, beautifully presented and bursting with flavors that delighted our taste buds. Each course was a culinary adventure that left us wanting more. This restaurant truly knows how to elevate fine dining to an art form."</i></div>
+            <div class="review">- Monica Smith</div>
+        
+        <div class="circle circle2"></div>
+            <div class="review"><i>"I had the pleasure of dining at this restaurant, and it exceeded all my expectations.  The attention to detail was remarkable, from the elegant table settings to the attentive and knowledgeable staff. The menu showcased a perfect blend of creativity and classic flavors. Every dish was a harmonious symphony of tastes and textures, showcasing the chef's passion for culinary excellence. The sommelier's wine pairings were spot-on, enhancing the overall dining experience. This restaurant is a must-visit for anyone seeking a memorable fine dining experience." </i></div>
+            <div class="review">- Angelo Burton</div>
+        
+        
+    
+  </div>
+
 </section>
 
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="container">
+      <h2>CONTACT</h2>
+      <p class="p">We would love to hear from you! Our dedicated team at Divine Restaurant is here to assist you with any inquiries or reservations. Feel free to reach out to us using the contact information provided below. Whether you have questions about our menu, want to book a table for a special occasion, or simply want to share your feedback, we are here to ensure your experience at Divine is exceptional. Get in touch with us today and let us make your dining experience truly unforgettable.</p>
+      <div class="icons">
+          <i class="fa-solid fa-mobile-button"></i> <p>+40727286543</p>
+          <i class="fa-solid fa-envelope"></i> <p>divine@yahoo.com</p>
+          <i class="fa-sharp fa-solid fa-location-dot"></i><p>Soseaua Nordului 7-9</p>
+      </div>
+    </div>
+  </section>
 
-<footer class="footer">
-    <div class="container6">
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
       <div class="footer-content">
         <div class="footer-logo">
           <h3>DIVINE DINING</h3>
@@ -150,8 +147,6 @@
       </div>
     </div>
   </footer>
-  
 
-    <script src="index.js"></script>
-  </body>
+</body>
 </html>
