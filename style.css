@@ -19,7 +19,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-  font-family: 'Montserrat', sans-serif; !important
+  font-family: 'Montserrat', sans-serif; 
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -50,7 +50,7 @@ table {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif; !important
+    font-family: 'Montserrat', sans-serif; 
    
 }
 
@@ -522,8 +522,14 @@ body {
      padding: 60% 5%;
     }
 
-    .aboutus .container h2{
+    /* .aboutus .container h2{
       padding-right: 5%;
+    } */
+
+    .aboutus .container h2{
+      padding: 2rem 0;
+      margin: auto;
+      
     }
 
     .menu .container{
@@ -531,12 +537,13 @@ body {
      display: flex;
      justify-content: center;
      align-items: center;
-     padding: 50% 5%;
+    
      text-align: center;
     }
 
     .menu .container h2{
-      padding-right: 40%;
+      padding: 2rem 0;
+      margin: auto;
     }
 
     .menu2 .container{
@@ -545,11 +552,12 @@ body {
      justify-content: center;
      align-items: center;
      text-align: center;
-     padding: 50% 5%;
+     
     }
 
     .menu2 .container h2{
-      padding-left: 62%;
+      padding: 2rem 0;
+      margin: auto;
     }
 
     .reviews .container{
@@ -560,8 +568,10 @@ body {
     }
 
     .reviews .container h2{
-      padding-right: 40%;
-      padding-bottom: 10rem;
+      padding-bottom: 11rem;
+      padding-left: 0;
+      padding-right: 0;
+      margin: auto;
     }
 
     .circle{
@@ -587,6 +597,11 @@ body {
     .icons i{
       font-size: 2rem;
     }
+
+    .contact .container h2{
+      padding: 2rem 0;
+      margin: auto;
+    }
   }
 
   @media screen and (max-width: 388px){
@@ -599,11 +614,5 @@ body {
       padding: 70% 10%;
     }
 
-    .menu2 .container h2{
-      padding-right: 65%;
-    }
-
-    .menu .container h2{
-      padding-left: 45%;
-    }
+   
   }
